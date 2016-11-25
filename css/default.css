@@ -1,0 +1,1227 @@
+ul {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+p {
+	margin: 0;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+h1 {
+	margin: 0;
+	font-size: 40px;
+}
+
+h2 {
+	margin: 0;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+
+h4 {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+
+h5 {
+	margin: 0;
+	padding: 0;
+	letter-spacing: 2px;
+}
+
+h6 {
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+	letter-spacing: 1px;
+}
+
+.box1 {
+	width: 100%;
+}
+
+.box2 {
+	width: 1000px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 60px 20px;
+}
+
+.nav-top {
+	height: 60px;
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+
+.nav-top ul {
+	list-style: none;
+	height: 60px;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.nav-top ul li {
+	height: 60px;
+	line-height: 60px;
+	float: left;
+}
+
+.nav-top ul li a {
+	line-height: 60px;
+	height: inherit;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 0 10px 0 10px;
+}
+
+.logo {
+	height: 40px;
+	margin: 10px 20px 10px 20px;
+}
+
+#topbar_phone_icon {
+	height: 60px;
+	line-height: 60px;
+	float: left;
+}
+
+#topbar_phone_num a {
+	line-height: 60px;
+	height: inherit;
+	font-size: 15px;
+}
+
+.nav-active {
+	background-color: #1FBCF1;
+	color: white;
+}
+
+.banner-bg {
+	background: #444 url(../img/banner_bg.png);
+	/*background-attachment: fixed;设置不能移动*/
+	/*background-repeat: no-repeat;*/
+	background-size: cover;
+	/*以封面设置大小*/
+	background-position: center center;
+	overflow: hidden;
+	margin-top: 60px;
+}
+
+.banner {
+	background: rgba(0, 0, 0, 0.6);
+	height: 400px;
+	width: 100%;
+}
+
+.banner-center {
+	height: 400px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.left {
+	/*background-color: #FFFF00;*/
+	color: #d4d4d4;
+	width: 300px;
+	height: inherit;
+	padding: 0px 0px 0px 0px;
+	display: block;
+	float: left;
+}
+
+.inner-left {
+	/*background-color: beige;*/
+	float: right;
+	margin-top: 230px;
+	margin-right: 80px;
+}
+
+.inner-left h1 {
+	margin-bottom: 5px;
+}
+
+.inner-left p {
+	margin-bottom: 5px;
+}
+
+.center {
+	width: 400px;
+	height: inherit;
+	/*background-color: aquamarine;*/
+	display: block;
+	float: left;
+}
+
+.inner-center {
+	text-align: center;
+	margin-top: 130px;
+}
+
+.inner-center h1 {
+	color: #fff;
+	padding-top: 5px;
+	letter-spacing: 10px;
+}
+
+.inner-center h4 {
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+.inner-center img {
+	height: 100px;
+}
+
+.right {
+	width: 300px;
+	height: inherit;
+	/*background-color: antiquewhite;*/
+	display: block;
+	float: left;
+}
+
+.inner-right {
+	background: rgba(0, 0, 0, 0.5);
+    width: 230px;
+    height: 250px;
+    margin: 75px 0px 75px 70px;
+    text-align: center;
+}
+
+.inner-right input {
+	width: 200px;
+    height: 25px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+#name {
+	margin-top: 40px;
+}
+
+.blue {
+	color: #d9eef7;
+	border: solid 1px #0076a3;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top, #00adee, #0078a5);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+}
+
+.blue:hover {
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top, #0095cc, #00678e);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
+}
+
+.blue:active {
+	color: #80bed6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
+	background: -moz-linear-gradient(top, #0078a5, #00adee);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+}
+
+.button {
+	width: 200px;
+    height: 30px;
+    margin-top: 20px;
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 16px/100% 'Microsoft yahei', Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+.button:hover {
+	text-decoration: none;
+}
+
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+.mokuai_one {
+	background-color: #ececec;
+	height: 420px;
+}
+
+.about-us {
+	color: #4a4a4a;
+	height: inherit;
+}
+
+.section-header h2 {
+	margin-top: 20px;
+	margin-bottom: 2px;
+}
+
+.aboutus-text {
+	font-size: 18px;
+	margin-top: 30px;
+	letter-spacing: 2px;
+	padding: 15px;
+}
+
+.section-header p {
+	font-size: 8px;
+	letter-spacing: 1px;
+}
+
+.fenge-tiao {
+	height: 60px;
+	width: 400px;
+	margin: 0 auto;
+}
+
+.fenge-hr {
+	display: block;
+	float: left;
+	height: 30px;
+}
+
+.fenge-tiao hr {
+	width: 150px;
+	border: 0;
+	border-top: 0;
+	border-bottom: 1px solid #777;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 29px;
+}
+
+.fenge-tiao img {
+	width: 30px;
+	height: 20px;
+	display: block;
+	float: left;
+	margin: 20px 35px 20px 35px;
+}
+
+.about-us hr {
+	border-bottom: 1px solid #464E55;
+}
+
+.mokuai_two {
+	background-color: #666;
+	height: 570px;
+}
+
+.education-tese {
+	color: #ffffff;
+	height: inherit;
+}
+
+.education-tese p {
+	font-size: 8px;
+	letter-spacing: 1px;
+}
+
+.education-tese hr {
+	border-bottom: 1px solid #C7C8C8;
+}
+
+.card-group {
+	width: 900px;
+	height: 300px;
+}
+
+.card {
+	float: left;
+	width: 450px;
+	height: 150px;
+	text-align: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/*border: 1px solid white;*/
+}
+
+.edu-img {
+	display: block;
+	float: left;
+	width: 200px;
+	height: 150px;
+}
+
+.edu-img img {
+	width: 70px;
+	height: 70px;
+	margin: 30px 30px 50px 100px;
+}
+
+.card:first-child img {
+	background: url(../img/edu_01.png);
+	background-size: contain;
+	background-repeat: space;
+}
+
+.card:nth-child(2) img {
+	background: url(../img/edu_02.png);
+	background-size: contain;
+	background-repeat: space;
+}
+
+.card:nth-child(3) img {
+	background: url(../img/edu_03.png);
+	background-size: contain;
+	background-repeat: space;
+}
+
+.card:nth-child(4) img {
+	background: url(../img/edu_04.png);
+	background-size: contain;
+	background-repeat: space;
+}
+
+.edu-text {
+	display: block;
+	float: left;
+	height: 150px;
+	width: 250px;
+}
+
+.edu-text p {
+	margin: 5px 0 5px 10px;
+}
+
+.edu-text h3 {
+	margin: 60px 0 5px 10px;
+}
+
+.mokuai-three {
+	background-color: #eee;
+	height: 920px;
+}
+
+.class-setting {
+	color: #4a4a4a;
+	height: inherit;
+}
+
+.card-group-3 {
+	width: 960px;
+	height: 600px;
+	padding-top: 30px;
+}
+
+.card-3 {
+	float: left;
+	width: 310px;
+	height: 300px;
+	text-align: left;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/*border: 1px solid white;*/
+}
+
+.write-bg {
+	background-color: #ffffff;
+	height: 200px;
+	width: 270px;
+	position: absolute;
+	top: 50px;
+	bottom: 50px;
+	left: 20px;
+	right: 20px;
+	text-align: center;
+}
+
+.write-bg h3 {
+	margin-top: 90px;
+}
+
+.write-bg p {
+	margin-top: 10px;
+	font-size: 8px;
+	padding: 15px;
+}
+
+.leacn-img {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 105px;
+	display: block;
+}
+
+.leacn_more {
+	position: absolute;
+	left: 115px;
+	height: 35px;
+	width: 80px;
+	bottom: 30px;
+}
+
+.card-3:first-child h3 {
+	color: #ef7e00;
+}
+
+.card-3:nth-child(2) h3 {
+	color: #33cb49;
+}
+
+.card-3:nth-child(3) h3 {
+	color: #1fbcf1;
+}
+
+.card-3:nth-child(4) h3 {
+	color: #ef7e00;
+}
+
+.card-3:nth-child(5) h3 {
+	color: #33cb49;
+}
+
+.card-3:nth-child(6) h3 {
+	color: #1fbcf1;
+}
+
+.mokuai-four {
+	background-color: #666;
+	height: 640px;
+}
+
+.dujia-tese {
+	color: #ffffff;
+	height: inherit;
+}
+
+.dujia-tese hr {
+	border-bottom: 1px solid #C7C8C8;
+}
+
+.card-group-4 {
+	margin-top: 20px;
+	height: 130px;
+	width: 960px;
+}
+
+.card-4 {
+	float: left;
+	width: 240px;
+	height: 110px;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.card-4 img {
+	height: 30px;
+	width: 40px;
+}
+
+.card-4:first-child img {
+	background: url(../img/dujia_01.png);
+	background-size: contain;
+	background-repeat: space;
+}
+
+.card-4:nth-child(2) img {
+	background: url(../img/dujia_02.png);
+	background-size: contain;
+	background-repeat: space;
+}
+
+.card-4:nth-child(3) img {
+	background: url(../img/dujia_03.png);
+	background-size: contain;
+	background-repeat: space;
+}
+
+.card-4:nth-child(4) img {
+	background: url(../img/dujia_04.png);
+	background-size: contain;
+	background-repeat: space;
+}
+
+.card-4 p {
+	font-size: 12px;
+	margin-top: 15px;
+}
+
+.card-4 h6 {
+	letter-spacing: 2px;
+	margin-top: 10px;
+}
+
+.long-line {
+	margin-top: 40px;
+	height: 1px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #fff;
+}
+
+
+/*色阶的方式区分模块*/
+
+.card-4:first-child {
+	border-style: solid;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+.card-4:nth-child(2) {
+	border-style: solid;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+.card-4:nth-child(3) {
+	border-style: solid;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+.card-group-4-2 {
+	margin-top: 20px;
+	height: 130px;
+	width: 960px;
+}
+
+.card-4-2 {
+	float: left;
+	width: 240px;
+	height: 110px;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.card-4-2 img {
+	height: 30px;
+	width: 40px;
+}
+
+.card-4-2:first-child img {
+	background: url(../img/dujia_05.png);
+	background-size: contain;
+	background-repeat: space;
+}
+
+.card-4-2:nth-child(2) img {
+	background: url(../img/dujia_06.png);
+	background-size: contain;
+	background-repeat: space;
+}
+
+.card-4-2:nth-child(3) img {
+	background: url(../img/dujia_07.png);
+	background-size: contain;
+	background-repeat: space;
+}
+
+.card-4-2:nth-child(4) img {
+	background: url(../img/dujia_08.png);
+	background-size: contain;
+	background-repeat: space;
+}
+
+.card-4-2 p {
+	font-size: 12px;
+	margin-top: 15px;
+}
+
+.card-4-2 h6 {
+	letter-spacing: 2px;
+	margin-top: 10px;
+}
+
+
+/*色阶的方式区分模块*/
+
+.card-4-2:first-child {
+	border-style: solid;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+.card-4-2:nth-child(2) {
+	border-style: solid;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+.card-4-2:nth-child(3) {
+	border-style: solid;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+.mokuai-five {
+	background-color: #eee;
+	height: 670px;
+}
+
+.teacher-team {
+	color: #4a4a4a;
+	height: inherit;
+}
+
+.card-group-5 {
+	padding-top: 20px;
+	height: 370px;
+	width: 960px;
+}
+
+.card-5 {
+	float: left;
+	width: 260px;
+	height: 330px;
+	margin: 20px 30px;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.teacher-text {
+	position: absolute;
+	top: 250px;
+	width: 260px;
+	height: 70px;
+	padding: 5px;
+}
+
+.card-5 h5 {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.card-5 p {
+	font-size: 6px;
+	letter-spacing: 1px;
+	padding: 5px;
+}
+
+.teacher-line {
+	background: url(../img/teacher_line.png);
+	/* background-color: #EF7E00; */
+	height: 1px;
+	width: 240px;
+	background-size: contain;
+	background-repeat: round;
+	display: block;
+	margin: 5px;
+}
+
+.card-5:first-child {
+	background: url(../img/teacher_01.png);
+	background-size: contain;
+	background-repeat: round;
+}
+
+.card-5:nth-child(2) {
+	background: url(../img/teacher_02.png);
+	background-size: contain;
+	background-repeat: round;
+}
+
+.card-5:nth-child(3) {
+	background: url(../img/teacher_03.png);
+	background-size: contain;
+	background-repeat: round;
+}
+
+.mokuai-six {
+	background: #444 url(../img/join_us_bg.png);
+	background-size: cover;
+	background-position: center center;
+	height: 520px;
+	width: 100%;
+}
+
+.join-us {
+	color: #4a4a4a;
+	height: inherit;
+}
+
+.join-us h1 {
+	text-align: left;
+	color: white;
+	margin: 20px;
+}
+
+.join-us h5 {
+	text-align: left;
+	margin: 15px 0 0 350px;
+	color: #EEEEEE;
+	font-size: 15px;
+}
+
+.join-us h3 {
+	text-align: left;
+	margin: 15px 0 0 250px;
+	color: white;
+}
+
+.mokuai-seven {
+	background-color: #eee;
+	height: 770px;
+}
+
+.environment {
+	color: #4a4a4a;
+	height: inherit;
+}
+
+.card-group-7 {
+	margin-top: 20px;
+	height: 450px;
+	width: 960px;
+}
+
+.card-7 {
+	float: left;
+	width: 280px;
+	height: 185px;
+	margin: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.env-hover {
+	background: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	height: 100%;
+	color: white;
+	text-align: center;
+	display: none;
+	/*隐藏后释放占用的空间*/
+	/*visibility: hidden;*/
+}
+
+.env-hover:hover {
+	visibility: visible;
+}
+
+.env-hover h2 {
+	padding-top: 70px;
+}
+
+.env-hover h5 {
+	padding: 5px;
+}
+
+.card-7:first-child {
+	background: url(../img/envir_01.png);
+	background-size: contain;
+	background-repeat: round;
+}
+
+.card-7:nth-child(2) {
+	background: url(../img/envir_02.png);
+	background-size: contain;
+	background-repeat: round;
+}
+
+.card-7:nth-child(3) {
+	background: url(../img/envir_03.png);
+	background-size: contain;
+	background-repeat: round;
+}
+
+.card-7:nth-child(4) {
+	background: url(../img/envir_04.png);
+	background-size: contain;
+	background-repeat: round;
+}
+
+.card-7:nth-child(5) {
+	background: url(../img/envir_05.png);
+	background-size: contain;
+	background-repeat: round;
+}
+
+.card-7:nth-child(6) {
+	background: url(../img/envir_06.png);
+	background-size: contain;
+	background-repeat: round;
+}
+
+.mokuai-eight{
+	background: #444 url(../img/jiuye_bg.png);
+    background-size: cover;
+    background-position: center center;
+    height: 470px;
+}
+.jiuye{
+	color: #fff;
+    height: inherit;
+}
+.jiuye-text-h1{
+    height: 150px;
+}
+.jiuye-text-h1 img{
+	width: 35px;
+    height: 35px;
+    margin: 50px 10px 0 10px;
+    display: block;
+    float: right;
+}
+.jiuye h1{
+	display: block;
+    float: right;
+    margin-top: 60px;
+}
+.jiuye-text{
+	width: 960px;
+    height: 150px;
+    margin-top: 30px;
+    text-align: right;
+}
+.jiuye-text h5{
+	margin-top: 10px;
+}
+.jiuye-text h3{
+	margin-top: 20px;
+}
+
+.mokuai-night{
+	background: #444 url(../img/zhongbao_bg.png);
+    background-size: cover;
+    background-position: center center;
+    height: 520px;
+}
+.zhongbao{
+	color: #fff;
+    height: inherit;
+}
+.zhongbao h3{
+	margin: 20px 0 25px 0;
+}
+.zhongbao p{
+	margin: 10px 0 10px 0;
+	font-size: 30px;
+}
+
+
+.footer{
+	height: 500px;
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+.footer-top{
+	background-color: #444444;
+	height: 350px;
+}
+.footer-to-center{
+	height: inherit;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+.footer-top img{
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	bottom: 480px;
+}
+.card-group-footer{
+	width: 960px;
+	height: 250px;
+	
+}
+.card-footer{
+	float: left;
+    width: 320px;
+    height: inherit;
+    text-align: left;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.card-footer h3{
+	padding: 10px;
+}
+.cricle-card-group{
+	width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+.cricle-card{
+	float: left;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #C0C0C0;
+    position: relative;
+}
+.cricle-card h5{
+	position: absolute;
+	top: 38px;
+	left: 20px;
+}
+.cricle-card:nth-child(3) h5{
+	left: 35px;
+}
+.card-footer input{
+	margin-left: 10px;
+    border: #666 1px solid;
+    padding: 5px 0 5px 10px;
+    margin-top: 20px;
+    background-color: #444;
+    text-align: left;
+    font-size: 10px;
+    height: 30px;
+    width: 150px;
+    color: white;
+}
+
+.yuyue{
+	float: left;
+    width: 100%;
+    position: relative;
+}
+.yuyue input{
+	height: 60px;
+	padding: 5px 0 5px 10px;
+}
+.button-yuyue {
+	width: 35%;
+	height: 30px;
+	font-size: 10px;
+	position: absolute;
+	bottom: 10px;
+	left: 170px;
+	text-decoration: none;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+.button-yuyue:hover {
+	text-decoration: none;
+}
+
+.card-footer-3-text{
+	margin-top: 20px;
+    margin-left: 20px;
+}
+.card-footer-3-text h5{
+	margin: 0 0 5px 10px;
+	color: #C0C0C0;
+	letter-spacing: 1px;
+}
+
+
+.footer-bottom{
+	background-color: #666666;
+	height: 150px;
+	color: #c0c0c0;
+}
+.footer-bottom-center{
+	width: 1000px;
+	height: inherit;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 20px;
+	
+}
+.footer-bottom-one{
+	position: relative;
+    width: 960px;
+    height: 70px;
+}
+.footer-bottom-one img{
+	width: 150px;
+    height: 40px;
+    position: absolute;
+    left: 300px;
+    top: 15px;
+}
+.footer-bottom-one h3{
+	position: absolute;
+    top: 30px;
+    right: 350px;
+}
+.footer-bottom-center h5{
+	margin-top: 10px;
+    font-size: 10px;
+}
+.footer-bottom-center h6{
+    margin-top: 5px;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+
+
+/*效果事件*/
+
+a,
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+}
+
+.nav-top ul li a:hover,
+.nav-top ul li a:focus {
+	background-color: #1FBCF1;
+	color: white;
+}
+
+
+/*在鼠标点击与释放之间发生*/
+
+.nav-top ul li a:active {
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.tab-onclick {
+	background-color: #1FBCF1;
+	color: white;
+}
+
+
+.card-3 .write-bg:hover{
+	box-shadow: 1px 1px 8px 4px #D4D4D4;
+}
+/*.card-5 :hover{
+	box-shadow: 1px 1px 8px 4px #C0C0C0;
+}*/
+.card-5-box{
+	box-shadow: 1px 1px 8px 4px #D4D4D4;
+}
+.card-4-hover{
+	
+}
+.card-4:first-child img:hover{
+	background: url(../img/dujia_01_hover.png);
+	background-size: contain;
+    background-repeat: space;
+	height: 30px;
+	width: 40px;
+}
+.card-4:nth-child(2) img:hover{
+	background: url(../img/dujia_02_hover.png);
+	background-size: contain;
+    background-repeat: space;
+	height: 30px;
+	width: 40px;
+}
+.card-4:nth-child(3) img:hover{
+	background: url(../img/dujia_03_hover.png);
+	background-size: contain;
+    background-repeat: space;
+	height: 30px;
+	width: 40px;
+}
+.card-4:nth-child(4) img:hover{
+	background: url(../img/dujia_04_hover.png);
+	background-size: contain;
+    background-repeat: space;
+	height: 30px;
+	width: 40px;
+}
+.card-4-2:first-child img:hover{
+	background: url(../img/dujia_05_hover.png);
+	background-size: contain;
+    background-repeat: space;
+	height: 30px;
+	width: 40px;
+}
+.card-4-2:nth-child(2) img:hover{
+	background: url(../img/dujia_06_hover.png);
+	background-size: contain;
+    background-repeat: space;
+	height: 30px;
+	width: 40px;
+}
+.card-4-2:nth-child(3) img:hover{
+	background: url(../img/dujia_07_hover.png);
+	background-size: contain;
+    background-repeat: space;
+	height: 30px;
+	width: 40px;
+}
+.card-4-2:nth-child(4) img:hover{
+	background: url(../img/dujia_08_hover.png);
+	background-size: contain;
+    background-repeat: space;
+	height: 30px;
+	width: 40px;
+}
+
+.card:first-child img:hover{
+	background: url(../img/edu_hover_01.png);
+    background-size: contain;
+    background-repeat: space;
+}
+.card:nth-child(2) img:hover{
+	background: url(../img/edu_hover_02.png);
+    background-size: contain;
+    background-repeat: space;
+}
+.card:nth-child(3) img:hover {
+	background: url(../img/edu_hover_03.png);
+    background-size: contain;
+    background-repeat: space;
+}
+.card:nth-child(4) img:hover {
+	background: url(../img/edu_hover_04.png);
+    background-size: contain;
+    background-repeat: space;
+}

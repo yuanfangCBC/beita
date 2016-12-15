@@ -4,23 +4,21 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0,user-scalable=no">
 		<meta charset="utf-8" />
-		<title>贝塔教育</title>
+		<title>贝塔</title>
 		<meta name="Description" content="西安蓝雪科技有限公司。欢迎拨打24小时咨询热线：15829610400">
 		<meta name="Keywords" content="web开发，.net开发">
 		<link href="favicon.ico" type="image/x-icon" rel="shortcut icon" />
-		<link rel="stylesheet" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/reset.css" />
-		<link rel="stylesheet" type="text/css" href="css/default.css" />
-
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/main.css" />
 	</head>
 
 	<body>
 		<header>
-			<div class="nav-top">
+			<nav>
 				<ul id="tab">
 					<li><img class="logo" src="img/logo_topbar.png" /></li>
 					<li>
-						<a href="#" id="tab_one">首页</a>
+						<a href="#" id="tab_one" class="shou-ye">首页</a>
 					</li>
 					<li>
 						<a href="#class_setting" id="tab_two">课程设计</a>
@@ -42,32 +40,30 @@
 						<a href="#">029-38025960</a>
 					</li>
 				</ul>
-			</div>
+			</nav>
 			<div class="banner-bg">
 				<div class="banner">
-					<div class="banner-center">
-						<div class="left">
-							<div class="inner-left">
-								<p>精品热门技术课程</p>
-								<h1>名师授课</h1>
-								<h4>短期培训 快速就业</h4>
-							</div>
+					<div class="left">
+						<div class="inner-left">
+							<p>精品热门技术课程</p>
+							<h1>名师授课</h1>
+							<h4>短期培训 快速就业</h4>
 						</div>
-						<div class="center">
-							<div class="inner-center">
-								<img src="img/logo_big_write.png" />
-								<h1>贝塔教育</h1>
-								<h4>Beta Education</h4>
-							</div>
+					</div>
+					<div class="center">
+						<div class="inner-center">
+							<img src="img/logo_big_write.png" />
+							<h1>贝塔教育</h1>
+							<h4>Beta Education</h4>
 						</div>
-						<div class="right">
-							<div class="inner-right">
-								<input id="name" type="text" name="fname" placeholder="name" />
-								<input type="text" name="phonenumber" placeholder="phonenumber" />
-								<input type="text" name="email" placeholder="email" />
-								<input type="text" name="age" placeholder="age" />
-								<button class="button blue" id="baoming" type="button">报名添加</button>
-							</div>
+					</div>
+					<div class="right">
+						<div class="inner-right">
+							<input id="name" type="text" name="fname" placeholder="name" />
+							<input type="text" name="phonenumber" placeholder="phonenumber" />
+							<input type="text" name="email" placeholder="email" />
+							<input type="text" name="age" placeholder="age" />
+							<button class="button blue" id="baoming" type="button">报名添加</button>
 						</div>
 					</div>
 				</div>
@@ -75,8 +71,8 @@
 			</div>
 		</header>
 		<div class="content">
-			<section class="box1 mokuai_one">
-				<div class="box2 about-us">
+			<section class="mokuai_one">
+				<div class="about-us">
 					<div class="section-header">
 						<h1>About Us</h1>
 						<h2>关于我们</h2>
@@ -88,16 +84,18 @@
 							<div class="fenge-hr">
 								<hr>
 							</div>
-
+							<p>我们只培养高薪人才</p>
 						</div>
-						<p>我们只培养高薪人才</p>
-					</div>
-					<p class="aboutus-text">贝塔教育是专注于培养中国顶尖程序语言专业人才的培训机构 团队成员多次为中国移动、恒生电子、互动科技等国内外上市公司、 政府机关的大型项目提供技术支持。 贝塔教育有一群认真执着的讲师，他们一心为同学着想 将真正的知识传授给大家，是贝塔不变的追求
-					</p>
-				</div>
+						<div class="section-header">
+							<h4>贝塔教育是专注于培养中国顶尖程序语言专业人才的培训机构
+                         团队成员多次为中国移动、恒生电子、互动科技等国内外上市公司、
+                                           政府机关的大型项目提供技术支持。
+                              贝塔教育有一群认真执着的讲师，他们一心为同学着想
+                                    将真正的知识传授给大家，是贝塔不变的追求</h4>
+						</div>
 			</section>
-			<section class="box1 mokuai_two">
-				<div class="box2 education-tese">
+			<section class="mokuai_two">
+				<div class="education-tese">
 					<div class="section-header">
 						<h1>Education</h1>
 						<h2>教育特色</h2>
@@ -109,9 +107,8 @@
 							<div class="fenge-hr">
 								<hr>
 							</div>
-
+							<p>独家教育特色引导教育新潮</p>
 						</div>
-						<p>独家教育特色引导教育新潮</p>
 					</div>
 					<div class="card-group">
 						<div class="card">
@@ -157,9 +154,8 @@
 					</div>
 				</div>
 			</section>
-
-			<section class="box1 mokuai-three">
-				<div class="box2 class-setting" id="class_setting">
+			<section class="mokuai-three">
+				<div class="class-setting" id="class_setting">
 					<div class="section-header">
 						<h1>Course</h1>
 						<h2>课程设计</h2>
@@ -171,8 +167,8 @@
 							<div class="fenge-hr">
 								<hr>
 							</div>
+							<p>从零讲起，由浅入深，循序渐进。</p>
 						</div>
-						<p>从零讲起，由浅入深，循序渐进。</p>
 					</div>
 					<div class="card-group-3">
 						<div class="card-3">
@@ -226,8 +222,8 @@
 					</div>
 				</div>
 			</section>
-			<section class="box1 mokuai-four">
-				<div class="box2 dujia-tese" id="dujia_tese">
+			<section class="mokuai-four">
+				<div class="dujia-tese" id="dujia_tese">
 					<div class="section-header">
 						<h1>Features</h1>
 						<h2>独家特色</h2>
@@ -239,9 +235,8 @@
 							<div class="fenge-hr">
 								<hr>
 							</div>
-
+							<p>八项特色，为学生量身打造的独家教育特色。</p>
 						</div>
-						<p>八项特色，为学生量身打造的独家教育特色。</p>
 					</div>
 					<div class="card-group-4">
 						<div class="card-4">
@@ -292,9 +287,8 @@
 					</div>
 				</div>
 			</section>
-
-			<section class="box1 mokuai-five">
-				<div class="box2 teacher-team">
+			<section class="mokuai-five">
+				<div class="teacher-team">
 					<div class="section-header">
 						<h1>Team</h1>
 						<h2>名师团队</h2>
@@ -306,9 +300,8 @@
 							<div class="fenge-hr">
 								<hr>
 							</div>
-
+							<p>以学生满意度，学习效果为佳。</p>
 						</div>
-						<p>以学生满意度，学习效果为佳。</p>
 					</div>
 					<div class="card-group-5">
 						<div class="card-5">
@@ -336,7 +329,7 @@
 				</div>
 			</section>
 			<section class="mokuai-six">
-				<div class="box2 join-us">
+				<div class="join-us">
 					<h1>加入我们</h1>
 					<h1>来这里展示你自己！</h1>
 					<div style="margin-top: 30px;">
@@ -352,9 +345,8 @@
 					</div>
 				</div>
 			</section>
-
-			<section class="box1 mokuai-seven">
-				<div class="box2 environment">
+			<section class="mokuai-seven">
+				<div class="environment">
 					<div class="section-header">
 						<h1>Environment</h1>
 						<h2>教学环境</h2>
@@ -366,9 +358,8 @@
 							<div class="fenge-hr">
 								<hr>
 							</div>
-
+							<p>舒适与高体验为先</p>
 						</div>
-						<p>舒适与高体验为先</p>
 					</div>
 					<div class="card-group-7">
 						<div class="card-7">
@@ -410,9 +401,8 @@
 					</div>
 				</div>
 			</section>
-
-			<section class="box1 mokuai-eight">
-				<div class="box2 jiuye" id="jiuye_baozhang">
+			<section class="mokuai-eight">
+				<div class="jiuye" id="jiuye_baozhang">
 					<div class="jiuye-text-h1">
 						<img src="img/quanwei.png" />
 						<h1>就业保障</h1>
@@ -427,9 +417,8 @@
 
 				</div>
 			</section>
-
-			<section class="box1 mokuai-night">
-				<div class="box2 zhongbao" id="zhongbao_pingtai">
+			<section class="mokuai-night">
+				<div class="zhongbao" id="zhongbao_pingtai">
 					<h1>众包平台</h1>
 					<h3>方便快捷</h3>
 					<img src="img/fuwu.png" />
@@ -439,72 +428,67 @@
 					<h2>敬请期待...</h2>
 				</div>
 			</section>
-		</div>
-		<!-- content-->
-
-		<footer class="footer">
-
-			<div class="footer-top" id="lianxi_women">
-				<div class="footer-to-center">
-				<img id="img_totop" src="img/to_top.png" />
-				<div class="card-group-footer">
-					<div class="card-footer">
-						<h3>课程安排</h3>
-						<div class="cricle-card-group">
-							<div class="cricle-card">
-								<h5>js语言</h5>
-							</div>
-							<div class="cricle-card">
-								<h5>Linux</h5>
-							</div>
-							<div class="cricle-card">
-								<h5>C#</h5>
-							</div>
-							<div class="cricle-card">
-								<h5>大数据</h5>
-							</div>
-						</div>
-					</div>
-					<div class="card-footer">
-						<h3>在线预约</h3>
-						<input type="text" name="fname" placeholder="姓名" />
-						<input type="text" name="phonenumber" placeholder="电话" />
-						<div class="yuyue">
-							<input type="text" name="content" placeholder="预约内容" />
-							<button class="blue button-yuyue">预约申请</button>
-						</div>
-					</div>
-					<div class="card-footer">
-						<h3>联系我们</h3>
-						<div class="card-footer-3-text">
-							<h5 style="color: #1FBCF1;">贝塔教育</h5>
-							<h5>联系地址：</h5>
-							<h5>陕西省西咸新区沣西新城</h5>
-							<h5>西部云谷E3#303</h5>
-							<h5>联系人:任老师</h5>
-							<h5>联系电话：029-38025960</h5>
-							<h5>联系邮箱：490820179@qq.com</h5>
-							<h5>网址：www.beta.com</h5>
-						</div>
-					</div>
-				</div>
-				</div>
 			</div>
-
-			<div class="box1 footer-bottom">
-				<div class="footer-bottom-center">
-					<div class="footer-bottom-one">
-						<img src="img/logo_bottom.png" />
-						<h3>www.beta.com</h3>
+			<!--content-->
+			<footer class="footer">
+				<div class="footer-top" id="lianxi_women">
+					<img id="img_totop" src="img/to_top.png" />
+					<div class="card-group-footer">
+						<div class="card-footer">
+							<h3>课程安排</h3>
+							<div class="cricle-card-group">
+								<div class="cricle-card">
+									<h5>js语言</h5>
+								</div>
+								<div class="cricle-card">
+									<h5>Linux</h5>
+								</div>
+								<div class="cricle-card">
+									<h5>C#</h5>
+								</div>
+								<div class="cricle-card">
+									<h5>大数据</h5>
+								</div>
+							</div>
+						</div>
+						<div class="card-footer">
+							<h3>在线预约</h3>
+							<input type="text" name="fname" placeholder="姓名" />
+							<input type="text" name="phonenumber" placeholder="电话" />
+							<div class="yuyue">
+								<input type="text" name="content" placeholder="预约内容" />
+								<button class="blue button-yuyue">预约申请</button>
+							</div>
+						</div>
+						<div class="card-footer">
+							<h3>联系我们</h3>
+							<div class="card-footer-3-text">
+								<h5 style="color: #1FBCF1;">贝塔教育</h5>
+								<h5>联系地址：</h5>
+								<h5>陕西省西咸新区沣西新城</h5>
+								<h5>西部云谷E3#303</h5>
+								<h5>联系人:任老师</h5>
+								<h5>联系电话：029-38025960</h5>
+								<h5>联系邮箱：490820179@qq.com</h5>
+								<h5>网址：www.beta.com</h5>
+							</div>
+						</div>
 					</div>
-					<h5>关于我们 | 联系我们 | 八大优势 | 教学环境 | 招生详情</h5>
-					<h6>Copy@2016-2018 http://beta.com AllRight Reserved 网络备案：陕ICP备140000号-0</h6>
 				</div>
-			</div>
-		</footer>
+				<div class="footer-bottom">
+					<div class="footer-bottom-center">
+						<div class="footer-bottom-one">
+							<img src="img/logo_bottom.png" />
+							<h3>www.beta.com</h3>
+						</div>
+						<h5>关于我们 | 联系我们 | 八大优势 | 教学环境 | 招生详情</h5>
+						<h6>Copy@2016-2018 http://beta.com AllRight Reserved 网络备案：陕ICP备140000号-0</h6>
+					</div>
+				</div>
+			</footer>
 
-		<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/default.js" type="text/javascript" charset="utf-8"></script>
+			<script src="js/jquery-1.11.1.min.js"></script>
+			<script src="js/main.js"></script>
 	</body>
 
 </html>
